@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Market - Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Rodrigo Market Logo" class="logo">
+            <span class="logo-text">Rodrigo Market</span>
+        </div>
+        <nav class="main-nav">
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="products.html">Продукты</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="delivery.html">Доставка и оплата</a></li>
+        <li><a href="faq.html">Часто задаваемые вопросы</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <main class="main-content">
+        <section class="contacts">
+            <h2>Наши контакты</h2>
+            <p>Вы можете связаться с нами по следующим контактным данным:</p>
+            <ul>
+                <li>Телефон: +380 (77) 777-77-77</li>
+                <li>Email: info@rodrigo-market.ua</li>
+                <li>Адрес: Одесса, 4 Ст. Люсдорф. дороги.</li>
+            </ul>
+
+            <h3>Форма обратной связи</h3>
+            <form action="submit_contact_form.php" method="POST">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 Rodrigo Market. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
